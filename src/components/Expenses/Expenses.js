@@ -7,7 +7,7 @@ import { ExpensesChart } from "./ExpensesChart";
 const Expenses = ({ expenses }) => {
   //directly destructuring the props object, props always comes in object to child component
   // console.log(expenses);
-  const [filteredYear, setFilteredYear] = useState("2020");
+  const [filteredYear, setFilteredYear] = useState("2023");
 
   const filterChangeHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
@@ -15,7 +15,7 @@ const Expenses = ({ expenses }) => {
   const filteredExpenses = expenses.filter(
     (expense) => expense.date.getFullYear().toString() === filteredYear
   );
-
+  // console.log(filteredExpenses);
   return (
     <div>
       <Card className="expenses">

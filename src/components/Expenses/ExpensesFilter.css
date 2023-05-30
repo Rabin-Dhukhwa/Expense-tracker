@@ -1,5 +1,5 @@
 .expenses-filter {
-  color: white;
+  color: black;
   padding: 0 1rem;
 }
 
@@ -20,5 +20,6 @@
   font: inherit;
   padding: 0.5rem 3rem;
   font-weight: bold;
-  border-radius: 6px;
+  border-radius: 8px;
+  /* border: none; */
 }

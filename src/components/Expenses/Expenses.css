@@ -1,10 +1,10 @@
 .expenses {
   padding: 1rem;
-  background-color: rgb(31, 31, 31);
+  background-color: #fc0;
   margin: 2rem auto;
   width: 50rem;
   max-width: 95%;
 }
-.no_expense {
+/* .no_expense {
   color: white;
-}
+} */
