@@ -4,12 +4,12 @@ import { NewExpense } from "./components/NewExpense/NewExpense";
 import "./App.css";
 
 const initial_Expenses = [
-  {
-    id: "e1",
-    title: "Grocery",
-    amount: 99.99,
-    date: new Date(2023, 5, 14),
-  },
+  // {
+  //   id: "e1",
+  //   title: "Grocery",
+  //   amount: 99.99,
+  //   date: new Date(2023, 5, 14),
+  // },
 ];
 
 const App = () => {
