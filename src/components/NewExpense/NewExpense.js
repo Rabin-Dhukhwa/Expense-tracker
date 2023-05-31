@@ -23,7 +23,7 @@ export const NewExpense = ({ onAddExpense }) => {
   };
 
   return (
-    <div className="new-expense">
+    <div className="new-expense mainClass">
       {!isEditing && (
         <button onClick={startEditingHandler}>Add New Expense</button>
       )}

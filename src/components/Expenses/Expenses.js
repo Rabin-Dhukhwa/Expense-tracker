@@ -18,7 +18,7 @@ const Expenses = ({ expenses }) => {
   // console.log(filteredExpenses);
   return (
     //mainClass css is in App.css for responsiveness
-    <div className="mainClass mainClass2">
+    <div className="mainClass ">
       <Card className="expenses">
         <ExpensesFilter
           selected={filteredYear}

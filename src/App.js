@@ -41,7 +41,7 @@ const App = () => {
 
   // React is used here under the hood when using jxs
   return (
-    <div className="mainClass mainClass2">
+    <div>
       {!displayScreen && (
         <div className="container">
           <h2>Welcome To Expense Tracker</h2>
